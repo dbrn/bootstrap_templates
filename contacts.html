@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="container my-3 my-sm-5">
+      <h1 class="text-center">Contacts</h1>
+      <hr class="mx-5">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <address>
+            <strong>Barzitronics<small class="align-top ml-n1">&nbsp;&reg;</small></strong><br>
+            Via Brasca, 66<br>
+            20056, Trezzo sull'Adda(MI)<br>
+            <abbr title="telephone">Tel:</abbr><a href="tel:+393922119984" class="text-decoration-none">&nbsp;(+39) 392-211-9984</a><br>
+            <abbr title="email">Mail:</abbr><a href="mailto:info@barzitronics.com" class="text-decoration-none">&nbsp;info@barzitronics.com</a>
+          </address>
+        </div>
+        <div class="col-12 col-md-6">
+          <p>
+            <strong>Opening hours:</strong><br>
+            Monday - Friday: <i>closed</i>
+            <br><span class="text-muted small"><u><i>We're always closed!</i></u></span>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <form>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="name">Name</label><br>
+                  <input placeholder="Name" type="text" id="name" class="form-control form-control-sm" required>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="email">Email</label><br>
+                  <input placeholder="Email" type="email" id="email" class="form-control form-control-sm" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="tel">Telephone</label><br>
+                  <input placeholder="Phone number" type="tel" id="tel" class="form-control form-control-sm">
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="form-group">
+                  <label for="departments">Department</label>
+                  <select class="form-control form-control-sm" id="departments" required>
+                    <option value="">Please select a department</option>
+                    <option value="sales">Sales</option>
+                    <option value="technical">Technical</option>
+                    <option value="HR">Human Resources</option>
+                  </select>
+                  <small class="text-muted ml-sm-2">Please select a recipient</small>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="textarea">Message</label><br>
+              <textarea name="textarea" rows="4" cols="80" class="form-control form-control-sm" required></textarea>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-12 col-sm-6 mb-3 my-3 mb-sm-0 my-sm-0">
+                  <button type="submit" class="btn btn-block btn-primary shadow-sm">Send</button>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <button type="reset" class="btn btn-block btn-danger shadow-sm">Reset</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <br><br>
+        <div class="col-12 col-lg-6">
+          <strong class="mt-3">Where to find us:</strong><br>
+          <div class="embed-responsive embed-responsive-4by3 border border-secondary shadow-sm mt-2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790.871771103775!2d9.500841514907313!3d45.613220779102946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786b32ffd11b8b5%3A0x28f4463e9d82e343!2sVia%20Emilio%20Brasca%2C%2066%2C%2020056%20Trezzo%20sull&#39;Adda%20MI!5e0!3m2!1sit!2sit!4v1570549317933!5m2!1sit!2sit" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
