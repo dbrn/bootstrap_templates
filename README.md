@@ -1,6 +1,6 @@
 <center><h1>Bootstrap Templates</h1></center>
 <hr>
-<strong>Currently featured templates:</strong>
+<strong>Currently featured templates:</strong><br>
 <ul>
   <li>Photogallery</li>
   <li>Videogallery</li>
