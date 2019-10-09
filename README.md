@@ -9,4 +9,11 @@
   <li>Login</li>
   <li>Contacts</li>
   <li>Footer</li>
+  <li>Sitemap</li>
+  <li>Keyboard Shortcuts</li>
+  <li>FAQs</li>
+  <li>Thank You Page</li>
+  <li>Employees List</li>
+  <li>Pricing</li>
+  <li>Account Creation</li>
 </ul>
